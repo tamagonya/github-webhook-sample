@@ -16,7 +16,11 @@ This sample script updates branch projection setting and creates issue when webh
 1. Prepare project with Requests and Flask packages
 2. Modify TOKEN in app.py
 3. Deploy app.py to your project
-4. Execute app.py. Webhook event endpoint looks like followings;
+4. Execute app.py
+    
+    `python app.py`
+   
+    Webhook event endpoint looks like followings;
 
     `http://localhost:port/webhook`
 
